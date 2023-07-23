@@ -7,7 +7,7 @@ import (
 	snowballeng "github.com/kljensen/snowball/english"
 )
 
-func Analyze(text string) []string {
+func analyze(text string) []string {
 	tokens := tokenize(text)
 	tokens = lowerCaseFilter(tokens)
 	tokens = stopWordsFilter(tokens)
