@@ -2,7 +2,8 @@ package main
 
 import (
 	"log"
-	"my-full-text-search/search"
+
+	"github.com/jackparsonss/full-text-search/search"
 )
 
 func main() {

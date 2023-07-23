@@ -1,4 +1,4 @@
-module my-full-text-search
+module github.com/jackparsonss/full-text-search
 
 go 1.19
 
