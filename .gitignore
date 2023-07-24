@@ -1,4 +1,5 @@
-data.xml
+*.xml
+*.csv
 .DS_Store
 full-text-search
 main
