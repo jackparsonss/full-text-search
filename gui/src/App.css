@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Input container */
+.input-container {
+  position: relative;
+  width: 600px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+/* Input style */
+.input-container input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+/* Input focus */
+.input-container input[type="text"]:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px #6c63ff80;
+}
+
+/* Placeholder text style */
+.input-container input[type="text"]::placeholder {
+  color: #999;
+}
+
+/* Label style */
+.input-container label {
+  padding: 0 5px;
+  font-size: 14px;
+  color: #999;
+  pointer-events: none;
+}
+
+.list-container {
+  width: 90vw;
+  margin: 20px;
+}
+
+/* Modern list style */
+.list-container ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display two items per row */
+  grid-gap: 16px;
+}
+
+.list-container li {
+  border-radius: 20px;
+  padding: 12px;
+  color: #333;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect */
+.list-container li:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}

@@ -3,6 +3,7 @@ package web
 import (
 	"net/http"
 
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/jackparsonss/full-text-search/search"
 )
@@ -13,6 +14,7 @@ var requestBody struct {
 
 func Entry(index search.Index, documents []search.Document) {
 	r := gin.Default()
+	r.Use(cors.Default())
 
 	r.POST("/search", func(c *gin.Context) {
 		if err := c.ShouldBindJSON(&requestBody); err != nil {
