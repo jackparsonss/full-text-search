@@ -4,7 +4,7 @@ origin: https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search
 ## todo
 1. support json
 2. improve speed by not needing to load data into memory
-3. support generic data
+3. simple web gui
 
 
 ## done
