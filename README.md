@@ -10,4 +10,4 @@ origin: https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search
 ## done
 1. actual full text search 
 2. persist indexes to storage
-3. simple gin backend to server a query request
+3. simple gin backend to serve a query request
